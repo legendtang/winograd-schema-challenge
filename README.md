@@ -7,7 +7,7 @@ Install spacy:
 
 ```
 pip install spacy-nightly
-python -m spacy download en_core_web_sm-2.0.0-alpha --direct   # English
+python -m spacy download en --direct   # English
 ```
 
 Please make sure that you have enough permission to install packages. If not, please install in `virtualenv` instead.
@@ -24,7 +24,7 @@ You may also find help by using `-h`:
 ```
 python main.py -h
 
-usage: main.1.py [-h] [-i INPUT] [-f FORCE] [-n NLP]
+usage: main.py [-h] [-i INPUT] [-f FORCE] [-n NLP]
 
 optional arguments:
   -h, --help            show this help message and exit
